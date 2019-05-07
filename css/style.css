@@ -288,3 +288,23 @@ body {
 a {
   color: #0500c0 !important;
 }
+
+
+.tabs-animated {
+  overflow: hidden;
+}
+
+.tab-pane {
+  height: 250px;
+  width: 100%;
+}
+
+#tab1, #tab2, #tab3, #tab4, #tab5, #tab6 {
+  background: transparent;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+.nav-tabs {
+  border-bottom: none;
+}
+
