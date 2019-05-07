@@ -1,8 +1,13 @@
 
+@font-face {
+  font-family: Raleway-Bold;
+  src: url('../fonts/Raleway-Bold.ttf');
+}
 
 body {
   background: #fff;
-  color: #4945d2;
+  color: #0500c0;
+  font-family: "Raleway-Bold";
 }
 .navbar {
  /* border-bottom: #d86669 3px solid;*/
@@ -14,7 +19,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 700px;
+  min-height: 550px;
 }
 
 #home-section .dark-overlay {
@@ -27,7 +32,7 @@ body {
 }
 
 #home-section .home-inner {
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
 #home-section .card-form {
@@ -36,7 +41,7 @@ body {
 
 #home-section .fas,
 #create-section .fas {
-  color: #008ed6;
+  color: #0500c0;
   background: #fff;
   padding: 5px;
   border-radius: 5px;
@@ -218,7 +223,7 @@ body {
 .nav-list li a:before {
   /*content: "\f14f";*/
   /*font: 400 21px/1 "Material Design Icons";*/
-  color: #4d6de6;
+  color: #0500c0;
   display: inline-block;
   vertical-align: baseline;
   /*margin-left: -28px;*/
@@ -269,4 +274,17 @@ body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+.img-container-block {
+  text-align: center;
+  padding: 50px;
+  border: 1px solid #0500c0
+}
+.img-container-inline {
+  text-align: center;
+  display: block;
+}
+a {
+  color: #0500c0 !important;
 }
